@@ -1,0 +1,23 @@
+.js-infinite-slider {
+    max-height: 700px;
+    overflow: hidden;
+    width: 100%;
+  }
+.swiper-slide {
+    width: 236px;
+    min-width: 170px;
+  }
+ img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+.swiper-wrapper {
+    display: flex;
+    align-items: flex-end;
+  }
+.for_padd {
+    margin-bottom: 15px;
+  }
+  

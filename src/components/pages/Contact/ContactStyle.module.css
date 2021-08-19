@@ -1,0 +1,117 @@
+  .for_bg {
+      position: relative;
+      height: 300px;
+      background-image: url(../../../img/3.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-blend-mode: overlay;
+      background-color: rgba(0, 0, 0, 0.7);
+      background-size: cover;
+      margin-bottom: 50px;
+  }
+  .contact_head{
+      position: absolute;
+      bottom:50px;
+      left: 100px;
+  }
+  .contact_us > .text {
+    font-size: 15px;
+    padding: 20px 0;
+    width: 40%;
+    line-height: 25px;
+  }
+  
+  .contact {
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+  }
+  .contact > .left {
+    width: 100%;
+  }
+  .contact > .left > form {
+    display: flex;
+    flex-flow: column nowrap;
+    width: 100%;
+    padding-bottom: 30px;
+  }
+  
+  .contact > .left > form input,
+  textarea {
+    padding: 15px;
+    font-size: 16px;
+    border-radius: 8px;
+    margin: 0 0 20px 0;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+  }
+  
+  .right_map > .map > iframe {
+    border-radius: 13px;
+  }
+  .right_map {
+    padding-left: 30px;
+  }
+
+  .head_bold_transparent {
+    position: relative;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 35px;
+    padding-bottom: 30px;
+    font-family: "Mulish", sans-serif;
+  }
+  
+  .head_bold_transparent > span {
+    text-transform: uppercase;
+    -webkit-text-stroke: 2px #fff;
+    color: transparent;
+    position: absolute;
+    font-size: 150px;
+    font-weight: 800;
+    opacity: 0.1;
+    left: 0;
+    top: 8px;
+    letter-spacing: 0.1px;
+    line-height: 0;
+  }
+  
+  .button > a {
+    color: #f8f9fa;
+    text-decoration-line: none;
+    display: inline-block;
+    padding: 13px 50px;
+    transition: all 0.3s ease;
+    border: 2px solid #000;
+    background: #000;
+    border-radius: 50px;
+  }
+  
+  .button > a:hover {
+    background: #fff;
+    color: #000;
+  }
+
+  .container {
+    max-width: 1280px;
+    margin: 0 auto;
+  
+  }
+
+  @media screen and (max-width: 1000px) {
+    .contact_us {
+        padding: 50px 30px;
+      }
+      .contact_us > .text {
+        width: 100%;
+      }
+      .contact {
+        display: block;
+      }
+      .right_map > .map > iframe {
+        width: 90vw;
+      }
+      .right_map {
+        padding-left: 0px;
+      }
+    
+  }
